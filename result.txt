@@ -1,0 +1,18 @@
+size of data mobile in dataset: (62176, 17)
+size of feature(bag of word): 19601
+section one: predict brand mobile
+brand exist in dataset:  ['Acer::ایسر', 'Amazon::آمازون', 'Apple::اپل', 'Asus::ایسوس', 'BlackBerry::بلک\u200cبری', 'Dell::دل', 'Farassoo::فراسو', 'HTC::اچ\u200cتی\u200cسی', 'Huawei::هوآوی', 'LG::ال\u200cجی', 'Lenovo::لنوو', 'Motorola::موتورلا', 'Nokia::نوکیا', 'Samsung::سامسونگ', 'Sony Ericsson::سونی اریکسون', 'Sony::سونی', 'ZTE::زدتی\u200cای']
+number of brand exist in dataset:  17
+
+fold: 1 naive bayes, accuracy for train:0.570488, accuracy for test:0.375064, f1 for train:0.603299, f1 for test:0.413821
+fold: 1 Logistic regression, accuracy for train:0.919583, accuracy for test:0.863999, f1 for train:0.919187, f1 for test:0.864080
+fold: 2 naive bayes, accuracy for train:0.583655, accuracy for test:0.391984, f1 for train:0.617995, f1 for test:0.430328
+fold: 2 Logistic regression, accuracy for train:0.942765, accuracy for test:0.872298, f1 for train:0.942329, f1 for test:0.871557
+fold: 3 naive bayes, accuracy for train:0.576149, accuracy for test:0.377959, f1 for train:0.609307, f1 for test:0.416702
+fold: 3 Logistic regression, accuracy for train:0.920033, accuracy for test:0.862519, f1 for train:0.920108, f1 for test:0.864088
+fold: 4 naive bayes, accuracy for train:0.570124, accuracy for test:0.370497, f1 for train:0.604276, f1 for test:0.409204
+fold: 4 Logistic regression, accuracy for train:0.917975, accuracy for test:0.869918, f1 for train:0.918212, f1 for test:0.869904
+
+
+Naive bayes avergae:  accuracy for train:0.575104, accuracy for test:0.378876, f1 for train:0.608719, f1 for test:0.417514
+Logistic regression avergae:  accuracy for train:0.925089, accuracy for test:0.867183, f1 for train:0.924959, f1 for test:0.867407
